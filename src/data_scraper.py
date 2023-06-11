@@ -171,4 +171,4 @@ for row in unique_rows:
         features_value = json.dumps(row.get("features"))
         total_price = price_value + shipping_value
         
-        connection.execute(insert_query, (itemID_value, title_value, brand_value, rating_value,         num_ratings_value, price_value, shipping_value, img_url_value, features_value, total_price))
+        connection.execute(insert_query, (itemID_value, title_value, brand_value, rating_value, num_ratings_value, price_value, shipping_value, img_url_value, features_value, total_price))
